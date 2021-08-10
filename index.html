@@ -1,116 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial;
-  padding: 10px;
-  background: #f1f1f1;
-}
-
-/* Header/Blog Title */
-.header {
-  padding: 30px;
-  text-align: center;
-  background: white;
-}
-
-.header h1 {
-  font-size: 50px;
-}
-
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
-  float: left;
-  width: 65%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 35%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
-}
-
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Add a card effect for articles */
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Footer */
-.footer {
-  padding: 10px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 10px;
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
-</style>
+  <link rel="stylesheet" href="C:\Users\danch\Documents\STAGE_0\Markdown\rsschool-cv\style.css">
 </head>
 <body>
 
+<div class = "parent"> 
 <div class="header">
   <h1>Shayakhmetova Dana</h1>
-  <p>Curriculum vitæ</p>
+  <p>Front-end developer (beginner)</p>
 </div>
 
 
@@ -119,46 +17,62 @@ body {
   <div class="leftcolumn">
     <div class="card">
       <h2>EDUCATION</h2>
-      <h4>
-        Unicorn University
-        Degree Name: Bachelor's degreeField Of StudyComputer Software Engineering
-        Dates attended or expected graduation: 2020 – 2023
-      </h4>
+        <h3>Unicorn University</h3>
+      <p>
+        <b>Degree Name:</b> Bachelor's degree
+      <br>
+        <b>Field Of Study </b> Computer Software Engineering
+        <br>
+        <b>Dates attended or expected graduation: </b> 2020 – 2023
+      </p>       
       
-    <h3>
-        Unicorn University
-    </h3>
+       
+      <h3>Al-Farabi Kazakh National University</h3>
+      <p>
+        <b>Degree Name:</b> Bachelor's degree
+      <br>
+        <b>Field Of Study </b> Chinese language translator
+        <br>
+        <b>Dates attended or expected graduation: </b> 2014 – 2018
+      </p>
     </div>
      
     <div class="card">
         <h2>COURSES</h2>
-        <h3>
-            Stepik
-        </h3>
-        <h3>
-          Rolling Scopes
-      </h3>
-      <h3>
-          Unicorn University
-      </h3>
+        <ul>
+          <li>
+            HTML and CSS Tutorials on w3schools
+          </li>
+          <li>JavaScript Manual on learnjavascript.ru</li>
+          <li>Python basics on Coursera</li>
+        </ul>
+
+        
+      
       
     </div>
-  
-
-    <div class="card">
-      <h2>EXPERIENCE</h2>
-      
-      
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
-
-    <div class="card">
-        <h2>EXPERIENCE</h2>
-        
-        
-        <p>Some text..</p>
-        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    
+      <div class="card">
+        <h2>Languages</h2>
+        <ul>
+          <li>  
+            <a href="https://en.wikipedia.org/wiki/Russian_language">
+            <img src="https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg" alt="Russian" style="width:30px;height:20px;"> </a>
+            Russian - native</li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/English_language">
+              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png" alt="UK" style="width:30px;height:20px;"> </a>
+              English - B2</li>
+          <li><a href="https://en.wikipedia.org/wiki/Czech_language">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/255px-Flag_of_the_Czech_Republic.svg.png" alt="czech" style="width:30px;height:20px;"> </a>
+            Czech - B2</li>
+          <li><a href="https://en.wikipedia.org/wiki/Chinese_language">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/220px-Flag_of_the_People%27s_Republic_of_China.svg.png" alt="china" style="width:30px;height:20px;"> </a>
+            Chinese - B1</li>
+          <li><a href="https://en.wikipedia.org/wiki/Kazakh_language">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/1920px-Flag_of_Kazakhstan.svg.png" alt="Kazakh" style="width:30px;height:20px;"> </a>
+            Kazakh - B1</li>
+        </ul>
       </div>
       
   </div>
@@ -181,7 +95,7 @@ body {
             <li><a href="https://github.com/dana245">Github</a></li>
           </ul>
       </details>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+      
     </div>
     <div class="card">
       <h3>Skills</h3>
@@ -189,40 +103,15 @@ body {
         <li>HTML 5, CSS, JS </li>
         <li>Python</li>
         <li>SCRUM</li>
+        <li>Github</li>
         <li>Agile</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3>Languages</h3>
-      <ul>
-        <li>  
-          <a href="https://en.wikipedia.org/wiki/Russian_language">
-          <img src="https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg" alt="Russian" style="width:30px;height:20px;"> </a>
-          Russian - native</li>
-        <li>
-          <a href="https://en.wikipedia.org/wiki/English_language">
-            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png" alt="UK" style="width:30px;height:20px;"> </a>
-            English - B2</li>
-        <li><a href="https://en.wikipedia.org/wiki/Czech_language">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/255px-Flag_of_the_Czech_Republic.svg.png" alt="czech" style="width:30px;height:20px;"> </a>
-          Czech - B2</li>
-        <li><a href="https://en.wikipedia.org/wiki/Chinese_language">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/220px-Flag_of_the_People%27s_Republic_of_China.svg.png" alt="china" style="width:30px;height:20px;"> </a>
-          Chinese - B1</li>
-        <li><a href="https://en.wikipedia.org/wiki/Kazakh_language">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/1920px-Flag_of_Kazakhstan.svg.png" alt="Kazakh" style="width:30px;height:20px;"> </a>
-          Kazakh - B1</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3>Soft skills</h3>
-      <ul>
         <li>Time managment</li>
         <li>Communication</li>
         <li>Curiosity</li>
-       
       </ul>
     </div>
+    
+  
   </div>
 </div>
 
@@ -241,6 +130,7 @@ body {
  </table>
   
  
+</div>
 </div>
 
 </body>
