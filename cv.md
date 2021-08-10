@@ -8,3 +8,6 @@
 * Python
 ### Education:
 #### Unicorn University
+##### Software engineering - 2 grade
+#### KazNU
+##### Chinese-russian translator
